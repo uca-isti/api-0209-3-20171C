@@ -1,12 +1,12 @@
 {
-  "name": "T_Categoria",
+  "name": "Categoria",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nombreCategoria": {
+    "name": {
       "type": "string",
       "required": true
     }
