@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "T_tipo": {
+    "dataSource": "db",
+    "public": true
   }
 }
