@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "T_Categoria": {
+    "dataSource": "db",
+    "public": false
   }
 }
