@@ -1,0 +1,25 @@
+{
+  "name": "Dinero",
+  "plural": "dineros",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "Categoria_id": {
+      "type": "hasOne",
+      "model": "Categoria",
+      "foreignKey": "Categoria_id"
+    },
+    "Tipo_id": {
+      "type": "hasOne",
+      "model": "Tipo",
+      "foreignKey": "Tipo_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
