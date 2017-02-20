@@ -1,5 +1,5 @@
 {
-  "name": "T_tipo",
+  "name": "Tipo",
   "plural": "tipos",
   "base": "PersistedModel",
   "idInjection": true,
