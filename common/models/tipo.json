@@ -1,21 +1,17 @@
 {
-  "name": "Dinero",
-
-  "plural": "dineros",
-
+  "name": "Tipo",
+  "plural": "tipos",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-
-  "properties":{
-    "monto": {
-      "type": "float",
+  "properties": {
+    "nombre_tipo": {
+      "type": "string",
       "required": true
     }
   },
-  "properties": {},
   "validations": [],
   "relations": {},
   "acls": [],

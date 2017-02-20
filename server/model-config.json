@@ -38,6 +38,13 @@
   },
   "Dinero": {
     "dataSource": "db",
+<<<<<<< HEAD
+=======
+    "public": true
+  },  
+  "T_Categoria": {
+    "dataSource": "db",
+>>>>>>> ef1b8980f8113f0b1522a3dfb2e951865c7ade80
     "public": false
   }
 }

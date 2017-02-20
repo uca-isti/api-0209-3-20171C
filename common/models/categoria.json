@@ -1,13 +1,12 @@
 {
-  "name": "T_tipo",
-  "plural": "tipos",
+  "name": "Categoria",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nombre_tipo": {
+    "name": {
       "type": "string",
       "required": true
     }
