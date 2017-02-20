@@ -39,9 +39,13 @@
   "Dinero": {
     "dataSource": "db",
     "public": true
-  },  
+  },
   "T_Categoria": {
     "dataSource": "db",
     "public": false
+  },
+  "Money": {
+    "dataSource": "db",
+    "public": true
   }
 }

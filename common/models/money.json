@@ -1,13 +1,14 @@
 {
-  "name": "Categoria",
+  "name": "Money",
+  "plural": "y",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
+    "amount": {
+      "type": "number",
       "required": true
     }
   },
