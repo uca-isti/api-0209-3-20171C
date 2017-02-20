@@ -1,0 +1,19 @@
+{
+  "name": "Dinero",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties":{
+    "monto": {
+      "type": "float",
+      "required": true
+    }
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
