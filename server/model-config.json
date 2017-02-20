@@ -35,5 +35,9 @@
   "T_tipo": {
     "dataSource": "db",
     "public": true
+  },
+  "Dinero": {
+    "dataSource": "db",
+    "public": true
   }
 }
