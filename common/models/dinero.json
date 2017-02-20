@@ -8,7 +8,6 @@
   "options": {
     "validateUpsert": true
   },
-
   "properties":{
     "monto": {
       "type": "float",
